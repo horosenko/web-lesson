@@ -1,0 +1,80 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing:  border-box;
+}
+:focus,:active{outline: none;}
+a: focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+
+body{
+	background: rgba(250, 235, 215, 0.2);
+	/* свойство паддинг позволяет сделать отступы внутренние отступы, а точнее ПОЛЯ ВО КРУГ ЭЛЕМЕНТА, 
+	тут я делаю в боди так как хочу чтобы мой текст отсупил на определенное расстояние от изначальной страницы
+	(как располагаются элементы в паддинг 0 0 0 0 - Сверху | Справа | Снизу | Слева , 0 0 0 - Сверху | По горизонтали | Снизу, 0 0 -По вертикали | По горизонтали*/
+	padding:  30px 10px 0px 30px;
+	
+}
+body p{
+	/* А маргин нужен для создания расстояния между двух блоков скажем 2 картинки,
+	 маргин нужен для того чтобы отодвинуть их друг от друга, а паддинг по сути нужен для создания рамки для этой картинки,
+	 к примеру блок 10на10 а картинка должна отступать в нем от его границ на два, для этого и используют паддинг */
+	margin: 0 0 30px 0;
+
+}
+
+.example-block{
+	margin: 0 0 30px 0;
+}
+.arial{
+	font-family: Arial, "Helvetical Neue", sans-serif;
+}
+
+.fontsize30{
+	font-size: 30px;
+}
+
+.italic{
+	font-style: italic;
+	color: bisque;
+}
+
+.font700{
+	font-weight: 700;
+}
+.colorred{
+	color: rgb(255, 0, 0);
+}
+.textright{
+	text-align: center;
+}

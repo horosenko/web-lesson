@@ -1,0 +1,117 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing:  border-box;
+}
+:focus,:active{outline: none;}
+a: focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+
+body{
+	background: rgba(250, 235, 215, 0.2);
+	/* свойство паддинг позволяет сделать отступы внутренние отступы, а точнее ПОЛЯ ВО КРУГ ЭЛЕМЕНТА, 
+	тут я делаю в боди так как хочу чтобы мой текст отсупил на определенное расстояние от изначальной страницы
+	(как располагаются элементы в паддинг 0 0 0 0 - Сверху | Справа | Снизу | Слева , 0 0 0 - Сверху | По горизонтали | Снизу, 0 0 -По вертикали | По горизонтали*/
+	
+	
+}
+
+.menu{
+	text-align: center;
+	margin: 10px 300px 0px 300px;
+	font-size: 24px;
+	width: 1000px;
+	background: rgba(250, 235, 215, 1);
+	padding: 5px;
+	padding-right: 20px;
+	float: left;
+}
+
+.btn1{
+	display: inline-block;
+	font-size: 18px;
+	background:rgba(250, 235, 215, 1) ;
+	margin: 10px 0px 0px 10px;
+	color: black;
+	padding: 10px 25px 10px 20px;
+	text-decoration: none; 
+	border-radius: 30px;
+}
+
+.btn2{
+	display: inline-block;
+	font-size: 18px;
+	margin: 10px 0px 0px 10px;
+	background:rgba(250, 235, 215, 1) ;
+	color: black;
+	padding: 10px 10px 10px 10px;
+	text-decoration: none; 
+	border-radius: 30px;
+}
+
+.btn3{
+	display: inline-block;
+	font-size: 18px;
+	margin: 10px 0px 0px 10px;
+	background:rgba(250, 235, 215, 1) ;
+	color: black;
+	padding: 10px 40px 10px 20px;
+	text-decoration: none; 
+	border-radius: 30px;
+}
+
+
+.btn4{
+	display: inline-block;
+	font-size: 18px;
+	margin: 10px 0px 0px 1350px;
+	background:rgba(250, 235, 215, 1) ;
+	color: black;
+	padding: 10px 40px 10px 20px;
+	text-decoration: none; 
+	border-radius: 30px;
+	position: fixed; 
+	top: 10px;
+}
+
+body p {
+  background: lightgreen;
+  margin: 100vh 0;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
